@@ -1,7 +1,7 @@
-fname = input('Enter name of a file: ')
+fname = input("Enter name of a file: ")
 try:
-    if fname=='na na boo boo':
-        print('NA NA BOO BOO TO YOU - You have been punkd!')
+    if fname=="na na boo boo":
+        print("NA NA BOO BOO TO YOU - You have been punkd!")
         quit()
     fhand = open (fname)
 except:
